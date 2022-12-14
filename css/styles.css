@@ -429,7 +429,7 @@ p {
 .svg-customers {
     width: 104px;
     height: 56px;
-    fill: #AFB1B8;
+    
 }
 .customers-link {
     width: 168px;
@@ -439,15 +439,16 @@ p {
     align-items: center;
     display: flex;
     border-radius: 4px;
+    fill: #AFB1B8;
 }
 
-.svg-customers:focus {
+.customers-link:focus,
+.customers-link:hover {
     fill: var(--buton-color);
+    border: 1px solid var(--buton-color);
     
 }
-.svg-customers:hover {
-    fill: var(--buton-color);
-}
+
 
 
 
